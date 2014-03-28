@@ -1,0 +1,15 @@
+$ java RelevantSnippet -debug
+
+doc: This is by far the best Pizza I ever had. There is a variety of gourmet beer and fine wine for a reasonable pizza. Try the deep Dish pizza and customize it with your toppings of choice. Bon Apetite. 
+
+query: deep dish pizza
+
+Sentence 0 is: This is by far the best [[HIGHLIGHT]]Pizza[[ENDHIGHLIGHT]] I ever had, score is: 2 Sentence 1 is: There is a variety of gourmet beer and fine wine for a reasonable [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]], score is: 2
+Sentence 2 is: Try the [[HIGHLIGHT]]deep Dish pizza[[ENDHIGHLIGHT]] and customize it with your toppings of choice, score is: 10
+Sentence 3 is: Bon Apetite, score is: -5 
+
+Scores are: [2, 2, 10, -5]
+
+Max sum: 14, Max sequence is: This is by far the best [[HIGHLIGHT]]Pizza[[ENDHIGHLIGHT]] I ever had. There is a variety of gourmet beer and fine wine for a reasonable [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]]. Try the [[HIGHLIGHT]]deep Dish pizza[[ENDHIGHLIGHT]] and customize it with your toppings of choice.
+
+This is by far the best [[HIGHLIGHT]]Pizza[[ENDHIGHLIGHT]] I ever had. There is a variety of gourmet beer and fine wine for a reasonable [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]]. Try the [[HIGHLIGHT]]deep Dish pizza[[ENDHIGHLIGHT]] and customize it with your toppings of choice.
